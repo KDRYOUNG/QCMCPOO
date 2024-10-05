@@ -1,0 +1,352 @@
+{
+    "questions": [
+      {
+        "text": "Qu'est-ce que la Programmation Orientée Objet (POO) ?",
+        "options": [
+          {"text": "Un paradigme basé sur les fonctions", "correct": false},
+          {"text": "Un paradigme basé sur des objets", "correct": true},
+          {"text": "Un paradigme basé sur les procédures", "correct": false}
+        ],
+        "explanation": "La POO est un paradigme qui utilise des objets pour modéliser des concepts du monde réel, comme une classe 'Personne' avec des attributs tels que 'nom' et 'âge'."
+      },
+      {
+        "text": "Quel est l'objectif principal de l'encapsulation ?",
+        "options": [
+          {"text": "Protéger l'état interne d'un objet", "correct": true},
+          {"text": "Augmenter la vitesse d'exécution", "correct": false},
+          {"text": "Réduire la taille du code", "correct": false}
+        ],
+        "explanation": "L'encapsulation protège les données internes d'un objet, par exemple en rendant l'attribut 'âge' d'une classe 'Personne' privé."
+      },
+      {
+        "text": "Quel terme désigne le mécanisme par lequel une classe hérite des propriétés d'une autre classe ?",
+        "options": [
+          {"text": "Polymorphisme", "correct": false},
+          {"text": "Héritage", "correct": true},
+          {"text": "Abstraction", "correct": false}
+        ],
+        "explanation": "L'héritage permet à une classe, comme 'Voiture', d'hériter des attributs d'une classe 'Véhicule'."
+      },
+      {
+        "text": "Quel est un exemple d'héritage en POO ?",
+        "options": [
+          {"text": "Un objet 'Chien' qui hérite de 'Animal'", "correct": true},
+          {"text": "Une classe 'Voiture' qui a des attributs", "correct": false},
+          {"text": "Une méthode qui renvoie un entier", "correct": false}
+        ],
+        "explanation": "Dans cet exemple, 'Chien' hérite des attributs et des méthodes de 'Animal', comme 'faireDuBruit()'."
+      },
+      {
+        "text": "Quelle est la définition du polymorphisme ?",
+        "options": [
+          {"text": "La capacité d'un objet à changer de forme", "correct": false},
+          {"text": "La capacité d'utiliser des objets de différentes classes de manière interchangeable", "correct": true},
+          {"text": "La capacité d'une classe à hériter d'une autre", "correct": false}
+        ],
+        "explanation": "Le polymorphisme permet, par exemple, d'utiliser une méthode 'parler()' sur un objet de type 'Chien' ou 'Chat', tous deux héritant de 'Animal'."
+      },
+      {
+        "text": "Qu'est-ce qu'un constructeur ?",
+        "options": [
+          {"text": "Une méthode pour créer une instance de classe", "correct": true},
+          {"text": "Une méthode pour détruire une instance de classe", "correct": false},
+          {"text": "Une méthode qui retourne un entier", "correct": false}
+        ],
+        "explanation": "Un constructeur initialise un nouvel objet, comme dans 'Personne p = new Personne('Alice', 30);'."
+      },
+      {
+        "text": "Quel est le rôle des getters et setters ?",
+        "options": [
+          {"text": "Modifier les attributs privés", "correct": true},
+          {"text": "Accéder directement aux attributs privés", "correct": false},
+          {"text": "Gérer l'héritage", "correct": false}
+        ],
+        "explanation": "Les getters et setters permettent d'accéder et de modifier des attributs privés, comme 'getAge()' et 'setAge(int age)' pour la classe 'Personne'."
+      },
+      {
+        "text": "La quelle de ces affirmations décrit le mieux une classe abstraite ?",
+        "options": [
+          {"text": "Elle peut être instanciée", "correct": false},
+          {"text": "Elle peut contenir des méthodes abstraites", "correct": true},
+          {"text": "Elle ne peut pas avoir d'attributs", "correct": false}
+        ],
+        "explanation": "Une classe abstraite, comme 'Animal', peut avoir des méthodes abstraites comme 'faireDuBruit()' que les sous-classes doivent implémenter."
+      },
+      {
+        "text": "Qu'est-ce qu'une interface en POO ?",
+        "options": [
+          {"text": "Une classe sans attributs", "correct": false},
+          {"text": "Un ensemble de méthodes sans implémentation", "correct": true},
+          {"text": "Un type de classe abstraite", "correct": false}
+        ],
+        "explanation": "Une interface, comme 'Volant', définit des méthodes que les classes comme 'Oiseau' et 'Avion' doivent implémenter."
+      },
+      {
+        "text": "Qu'est-ce que le couplage en POO ?",
+        "options": [
+          {"text": "La dépendance entre deux classes", "correct": true},
+          {"text": "Le degré de complexité d'une classe", "correct": false},
+          {"text": "La capacité d'une classe à être utilisée dans différents contextes", "correct": false}
+        ],
+        "explanation": "Le couplage mesure comment les classes, par exemple 'Voiture' et 'Moteur', dépendent les unes des autres."
+      },
+      {
+        "text": "Qu'est-ce que la cohésion ?",
+        "options": [
+          {"text": "Le degré d'indépendance entre les classes", "correct": false},
+          {"text": "Le lien entre les éléments d'une classe", "correct": true},
+          {"text": "La quantité de méthodes dans une classe", "correct": false}
+        ],
+        "explanation": "La cohésion mesure à quel point les attributs et méthodes d'une classe, comme 'Facture', sont liés."
+      },
+      {
+        "text": "Quel est le rôle du Garbage Collector ?",
+        "options": [
+          {"text": "Libérer la mémoire des objets inutilisés", "correct": true},
+          {"text": "Gérer les erreurs d'exécution", "correct": false},
+          {"text": "Accélérer l'exécution du code", "correct": false}
+        ],
+        "explanation": "Le Garbage Collector automatise la gestion de la mémoire, en supprimant les objets comme 'Personne' qui ne sont plus référencés."
+      },
+      {
+        "text": "Qu'est-ce que l'immuabilité en POO ?",
+        "options": [
+          {"text": "La capacité d'un objet à changer d'état", "correct": false},
+          {"text": "Un objet dont l'état ne peut pas être modifié après sa création", "correct": true},
+          {"text": "Une méthode qui ne peut pas être utilisée", "correct": false}
+        ],
+        "explanation": "Par exemple, la classe 'String' en Java est immuable, ce qui signifie que sa valeur ne peut pas être changée après sa création."
+      },
+      {
+        "text": "Qu'est-ce que le downcasting en POO ?",
+        "options": [
+          {"text": "La conversion d'un objet d'une classe de base vers une classe dérivée", "correct": true},
+          {"text": "La conversion d'une classe dérivée vers la classe de base", "correct": false},
+          {"text": "La création d'un objet", "correct": false}
+        ],
+        "explanation": "Le downcasting permet d'accéder à des méthodes spécifiques d'une classe dérivée après un upcasting, par exemple, convertir un 'Véhicule' en 'Voiture'."
+      },
+      {
+        "text": "Qu'est-ce qu'une classe imbriquée ?",
+        "options": [
+          {"text": "Une classe définie à l'intérieur d'une autre classe", "correct": true},
+          {"text": "Une classe sans attributs", "correct": false},
+          {"text": "Une classe qui ne peut pas être instanciée", "correct": false}
+        ],
+        "explanation": "Une classe imbriquée, comme 'Voiture.Moteur', est définie à l'intérieur de la classe 'Voiture' et peut accéder à ses attributs."
+      },
+      {
+        "text": "Quelle est la différence entre l'aggrégation et la composition ?",
+        "options": [
+          {"text": "L'aggrégation est une relation forte", "correct": false},
+          {"text": "La composition implique que les parties ne peuvent exister sans le tout", "correct": true},
+          {"text": "Les deux sont identiques", "correct": false}
+        ],
+        "explanation": "Dans la composition, par exemple, une 'Pièce de Puzzle' ne peut pas exister sans le 'Puzzle'."
+      },
+      {
+        "text": "Qu'est-ce qu'un singleton ?",
+        "options": [
+          {"text": "Un patron de conception qui assure qu'une classe n'a qu'une seule instance", "correct": true},
+          {"text": "Une classe avec plusieurs instances", "correct": false},
+          {"text": "Une classe abstraite", "correct": false}
+        ],
+        "explanation": "Le singleton garantit qu'une classe, comme 'Configuration', a une seule instance accessible globalement."
+      },
+      {
+        "text": "Qu'est-ce que l'héritage multiple ?",
+        "options": [
+          {"text": "Une classe dérivée peut hériter de plusieurs classes de base", "correct": true},
+          {"text": "Une classe ne peut hériter que d'une seule classe", "correct": false},
+          {"text": "Un objet peut avoir plusieurs instances", "correct": false}
+        ],
+        "explanation": "L'héritage multiple permet à une classe de combiner les attributs de plusieurs classes, par exemple, en Python."
+      },
+      {
+        "text": "Quel est l'effet du mot-clé 'final' en Java ?",
+        "options": [
+          {"text": "Il permet de modifier une méthode", "correct": false},
+          {"text": "Il empêche la modification d'une classe ou d'une méthode", "correct": true},
+          {"text": "Il augmente la vitesse d'exécution", "correct": false}
+        ],
+        "explanation": "'final' empêche les classes d'être sous-classées ou les méthodes d'être redéfinies, par exemple, 'class Constante final'."
+      },
+      {
+        "text": "Qu'est-ce qu'une exception en POO ?",
+        "options": [
+          {"text": "Une erreur d'exécution", "correct": true},
+          {"text": "Une méthode spéciale", "correct": false},
+          {"text": "Une classe abstraite", "correct": false}
+        ],
+        "explanation": "Les exceptions, comme 'NullPointerException', sont utilisées pour gérer les erreurs d'exécution dans le code."
+      },
+      {
+        "text": "Comment gère-t-on une exception en Java ?",
+        "options": [
+          {"text": "Avec le mot-clé 'try-catch'", "correct": true},
+          {"text": "Avec le mot-clé 'if-else'", "correct": false},
+          {"text": "Avec le mot-clé 'for'", "correct": false}
+        ],
+        "explanation": "Le bloc 'try-catch' permet d'intercepter et de gérer les exceptions pour éviter que le programme ne plante."
+      },
+      {
+        "text": "Qu'est-ce que le principe de substitution de Liskov ?",
+        "options": [
+          {"text": "Les sous-classes doivent être substituables aux classes de base", "correct": true},
+          {"text": "Les classes doivent être indépendantes", "correct": false},
+          {"text": "Les classes ne doivent pas avoir d'héritage", "correct": false}
+        ],
+        "explanation": "Ce principe assure que si 'B' est une sous-classe de 'A', alors les objets de 'A' doivent pouvoir être remplacés par des objets de 'B'."
+      },
+      {
+        "text": "Quel est l'effet de l'utilisation du mot-clé 'static' ?",
+        "options": [
+          {"text": "L'attribut ou la méthode appartient à la classe plutôt qu'à une instance", "correct": true},
+          {"text": "L'attribut ou la méthode est privé", "correct": false},
+          {"text": "L'attribut ou la méthode peut être modifié", "correct": false}
+        ],
+        "explanation": "Les membres 'static', comme 'Math.PI', sont partagés entre toutes les instances de la classe."
+      },
+      {
+        "text": "Quelle est la différence entre une méthode virtuelle et une méthode statique ?",
+        "options": [
+          {"text": "Les méthodes virtuelles peuvent être redéfinies dans les sous-classes", "correct": true},
+          {"text": "Les méthodes statiques ne peuvent pas être appelées sans instance", "correct": false},
+          {"text": "Les deux sont identiques", "correct": false}
+        ],
+        "explanation": "Une méthode virtuelle, comme 'parler()' dans une classe 'Animal', peut être redéfinie dans une classe dérivée."
+      },
+      {
+        "text": "Qu'est-ce que la surcharge de méthode ?",
+        "options": [
+          {"text": "La définition de plusieurs méthodes avec le même nom mais des signatures différentes", "correct": true},
+          {"text": "La définition d'une méthode dans une classe dérivée", "correct": false},
+          {"text": "L'utilisation de mots-clés pour créer des méthodes", "correct": false}
+        ],
+        "explanation": "La surcharge permet d'avoir plusieurs méthodes 'additionner(int a, int b)' et 'additionner(double a, double b)'."
+      },
+      {
+        "text": "Qu'est-ce qu'un patron de conception (design pattern) ?",
+        "options": [
+          {"text": "Une méthode pour écrire du code", "correct": false},
+          {"text": "Une solution éprouvée à un problème courant dans le développement logiciel", "correct": true},
+          {"text": "Un type d'algorithme", "correct": false}
+        ],
+        "explanation": "Un patron de conception, comme le patron Singleton, fournit une structure pour résoudre un problème de conception récurrent."
+      },
+      {
+        "text": "Qu'est-ce qu'une classe finale ?",
+        "options": [
+          {"text": "Une classe qui ne peut pas être sous-classée", "correct": true},
+          {"text": "Une classe qui ne peut pas être instanciée", "correct": false},
+          {"text": "Une classe avec des méthodes statiques", "correct": false}
+        ],
+        "explanation": "Une classe marquée comme 'final', comme 'Math', ne peut pas avoir de sous-classes."
+      },
+      {
+        "text": "Quelle est la différence entre une méthode d'instance et une méthode de classe ?",
+        "options": [
+          {"text": "Une méthode d'instance opère sur une instance spécifique de la classe", "correct": true},
+          {"text": "Une méthode de classe peut accéder aux attributs d'instance", "correct": false},
+          {"text": "Les deux sont identiques", "correct": false}
+        ],
+        "explanation": "Une méthode d'instance, comme 'getNom()' dans 'Personne', opère sur des données spécifiques à cette instance."
+      },
+      {
+        "text": "Qu'est-ce qu'une classe générique ?",
+        "options": [
+          {"text": "Une classe qui peut fonctionner avec des types de données spécifiés au moment de la création", "correct": true},
+          {"text": "Une classe qui ne peut pas être instanciée", "correct": false},
+          {"text": "Une classe qui contient des méthodes statiques", "correct": false}
+        ],
+        "explanation": "Une classe générique, comme 'Liste<T>', permet de créer des listes qui peuvent contenir n'importe quel type de données."
+      },
+      {
+        "text": "Qu'est-ce qu'un objet immuable ?",
+        "options": [
+          {"text": "Un objet dont l'état ne peut pas être modifié", "correct": true},
+          {"text": "Un objet qui peut changer d'état", "correct": false},
+          {"text": "Un objet qui ne peut pas être créé", "correct": false}
+        ],
+        "explanation": "Par exemple, une chaîne de caractères en Java est immuable : une fois créée, sa valeur ne peut pas être changée."
+      },
+      {
+        "text": "Quelle est la fonction de la méthode 'toString()' ?",
+        "options": [
+          {"text": "Convertir un objet en chaîne de caractères", "correct": true},
+          {"text": "Créer un nouvel objet", "correct": false},
+          {"text": "Modifier l'état d'un objet", "correct": false}
+        ],
+        "explanation": "La méthode 'toString()' fournit une représentation textuelle d'un objet, par exemple, 'Personne.toString()' peut retourner 'Alice, 30 ans'."
+      },
+    
+    
+    
+          {
+            "text": "Qu'est-ce que le typage statique ?",
+            "options": [
+              {"text": "Un mécanisme où le type des variables est connu à l'exécution.", "correct": false},
+              {"text": "Un mécanisme où le type des variables est connu à la compilation.", "correct": true},
+              {"text": "Un mécanisme où le type des variables peut changer à tout moment.", "correct": false}
+            ],
+            "explanation": "Le typage statique assure que les types de données des variables sont déterminés lors de la compilation, ce qui permet de détecter des erreurs avant l'exécution. Par exemple, si vous déclarez une variable 'int a = 'texte';' en Java, cela générera une erreur de compilation."
+          },
+          {
+            "text": "Quel est un exemple de typage dynamique ?",
+            "options": [
+              {"text": "Une variable déclarée comme int en Java.", "correct": false},
+              {"text": "Une variable qui peut changer de type en Python.", "correct": true},
+              {"text": "Une variable qui ne peut pas changer de type en C.", "correct": false}
+            ],
+            "explanation": "Le typage dynamique permet à une variable de changer de type au cours de l'exécution. Par exemple, en Python, vous pouvez écrire 'x = 5' puis 'x = 'texte'', et cela est parfaitement valide."
+          },
+          {
+            "text": "Qu'est-ce que le sous-typage ?",
+            "options": [
+              {"text": "Un mécanisme où un sous-type peut être utilisé comme un supertype.", "correct": true},
+              {"text": "Un mécanisme où un supertype peut être utilisé comme un sous-type.", "correct": false},
+              {"text": "Un mécanisme de conversion de types.", "correct": false}
+            ],
+            "explanation": "Le sous-typage permet d'utiliser un objet d'une classe dérivée là où un objet de la classe de base est attendu. Par exemple, si 'Chien' hérite de 'Animal', un objet 'Chien' peut être utilisé dans une méthode qui attend un 'Animal'."
+          },
+          {
+            "text": "Qu'est-ce que le transtypage ?",
+            "options": [
+              {"text": "La capacité d'une méthode à traiter différents types d'objets.", "correct": false},
+              {"text": "La conversion d'un type de données en un autre.", "correct": true},
+              {"text": "La réutilisation des méthodes d'une classe par une autre classe.", "correct": false}
+            ],
+            "explanation": "Le transtypage permet de convertir une variable d'un type à un autre. Par exemple, en Java, vous pouvez faire 'double d = 10.5;' puis 'int i = (int)d;' pour convertir un double en int."
+          },
+          {
+            "text": "Quel est un exemple de polymorphisme ?",
+            "options": [
+              {"text": "Une méthode qui peut être utilisée par plusieurs classes sans modification.", "correct": true},
+              {"text": "Une classe qui hérite d'une autre classe.", "correct": false},
+              {"text": "Une méthode avec le même nom mais des paramètres différents.", "correct": false}
+            ],
+            "explanation": "Le polymorphisme permet à une méthode de fonctionner avec des objets de classes différentes. Par exemple, une méthode 'dessiner()' peut être appelée sur un objet 'Cercle' et sur un objet 'Rectangle', et chaque objet se comportera différemment."
+          },
+          {
+            "text": "Qu'est-ce que l'héritage ?",
+            "options": [
+              {"text": "La capacité d'une classe à utiliser les méthodes d'une autre classe.", "correct": true},
+              {"text": "La capacité d'une classe à créer des instances de nouvelles classes.", "correct": false},
+              {"text": "La capacité d'une classe à implémenter plusieurs interfaces.", "correct": false}
+            ],
+            "explanation": "L'héritage permet à une classe de réutiliser le code d'une autre classe. Par exemple, si 'Voiture' est une classe de base, 'VoitureElectrique' peut hériter de 'Voiture' et utiliser ses propriétés comme 'couleur' et 'marque'."
+          },
+          {
+            "text": "Qu'est-ce qu'une classe générique ?",
+            "options": [
+              {"text": "Une classe qui peut fonctionner avec des types de données spécifiés au moment de la création", "correct": true},
+              {"text": "Une classe qui ne peut pas être instanciée", "correct": false},
+              {"text": "Une classe qui contient des méthodes statiques", "correct": false}
+            ],
+            "explanation": "Une classe générique, comme 'Liste<T>', permet de créer des listes qui peuvent contenir n'importe quel type de données. Par exemple, 'Liste<int>' peut stocker des entiers, tandis que 'Liste<string>' peut stocker des chaînes de caractères."
+          }
+    ]
+      }
+      
+  
+  

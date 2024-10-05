@@ -1,0 +1,251 @@
+{
+    "questions": [
+      {
+        "text": "Quand, dans une méthode, on définit et initialise une nouvelle variable locale avec une instruction de la forme Integer x = 12;, alors la valeur 12 est stockée dans le tas.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Les variables locales sont stockées en pile, mais la valeur d'un objet Integer (qui n'est pas primitif) est dans le tas."
+      },
+      {
+        "text": "Quand « this » apparaît dans une méthode, sa valeur est le récepteur de l’appel courant à celle-ci.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Le mot-clé 'this' fait référence à l'objet sur lequel la méthode a été appelée."
+      },
+      {
+        "text": "Toute classe possède au moins un constructeur.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Le compilateur ajoute un constructeur par défaut si aucun n'est défini."
+      },
+      {
+        "text": "Number est supertype de double.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Number est un type référence et double est un type primitif, donc ils appartiennent à des hiérarchies différentes."
+      },
+      {
+        "text": "Quand un objet n’est plus utilisé, il faut demander à la JVM de libérer la mémoire qu’il occupe.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Le ramasse-miettes de la JVM se charge de libérer la mémoire automatiquement."
+      },
+      {
+        "text": "La ligne 12 du programme ci-dessous affiche « 1 ».",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "v1 est statique et est donc partagé entre toutes les instances, alors que v2 est un attribut d'instance.",
+        "image":"images/question6.png"
+      },
+      {
+        "text": "La ligne 11 du programme ci-dessus affiche « 3 ».",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "v1 est incrémenté à chaque instanciation, mais il vaut 1 après une seule instanciation."
+      },
+      {
+        "text": "Une interface peut avoir des instances directes.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Les interfaces ne peuvent pas être instanciées directement, seules les classes peuvent l'être."
+      },
+      {
+        "text": "Tout objet existant à l’exécution est instance de Object.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "En Java, tous les objets (sauf null) sont des instances de la classe Object."
+      },
+      {
+        "text": "Le polymorphisme par sous-typage permet de réutiliser, dans un nouveau fichier G.java, une méthode f définie dans le fichier F.java (sans recompilation de ce dernier) avec des paramètres effectifs dont le type n’avait pas encore été programmé quand F.java avait été compilé.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Le sous-typage permet de passer des objets de types dérivés à des méthodes sans recompilation."
+      },
+      {
+        "text": "Il est plus facile de prouver qu’un programme se comporte correctement quand ses classes encapsulent leurs données que quand elles ne le font pas.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "L'encapsulation réduit l'accès direct aux données, simplifiant ainsi la vérification du comportement."
+      },
+      {
+        "text": "Une classe implémentant une interface I doit définir toutes les méthodes déclarées dans I.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Une classe abstraite peut ne pas implémenter toutes les méthodes, et certaines méthodes peuvent avoir des implémentations par défaut."
+      },
+      {
+        "text": "La méthode somme ci-dessous s’exécute toujours normalement (sans lever IndexOutOfBoundsException).",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "La liste est copiée en profondeur et la taille est fixée au moment de l'initialisation, empêchant les erreurs d'indice.",
+        "image":"images/question13.png"
+      },
+      {
+        "text": "Le patron de conception « adaptateur » consiste à écrire une classe implémentant une interface donnée, à l’aide d’une autre classe qui fournit les fonctionnalités de cette interface sans l’implémenter.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Le pattern Adapter permet de créer une classe qui adapte une autre classe pour satisfaire une interface donnée."
+      },
+      {
+        "text": "javac prend en entrée un code source Java et produit, en sortie, du code-octet.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Le compilateur `javac` transforme le code source Java en bytecode."
+      },
+      {
+        "text": "Dans la classe suivante : ",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Le paramètre `d` est un type primitif, donc une copie profonde n'est pas nécessaire.",
+        "image":"images/question16.png"
+        
+      },
+      {
+        "text": "Quand on « cast » (transtype) une expression d’un type référence vers un autre, dans certains cas, Java doit, à l’exécution, modifier l’objet référencé pour le convertir.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Le cast ne modifie pas l'objet ; soit il réussit, soit il échoue avec une exception."
+      },
+      {
+        "text": "Le système de sous-typage de Java est structurel (si une interface T possède toutes les méthodes d’une autre interface U, avec des signatures compatibles, alors T est sous-type de U).",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Le système de type de Java est nominal, ce qui signifie que le sous-typage est déclaré explicitement."
+      },
+      {
+        "text": "La classe d’un objet donné est connue et interrogeable à l’exécution.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "La classe d'un objet peut être déterminée à l'exécution en utilisant `getClass()`."
+      },
+      {
+        "text": "Si A et B sont des types référence, A est sous-type de B si et seulement si toutes les instances de A sont aussi des instances de B.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Cette condition définit la relation de sous-typage en Java."
+      },
+      {
+        "text": "Le type byte est primitif.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Le type `byte` est l'un des huit types primitifs en Java."
+      },
+     
+      {
+        "text": "Le type String est primitif.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Le type String est un type référence en Java, et non un type primitif."
+      },
+      {
+        "text": "Tout seul, le fichier A.java, ci-dessous, compile : ",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Il y a une incompatibilité de type entre les valeurs littérales entières (0 et 1) et le type boolean.",
+        "image":"images/question23.png"
+      },
+      {
+        "text": "Dans la classe B ci-dessous, la méthode f de la classe A est surchargée par la méthode f de B : ",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "La méthode f de A étant privée, elle n'est pas visible dans la classe B et donc pas surchargée.",
+        "image":"images/question24.png"
+      },
+      {
+        "text": "Une classe peut avoir plusieurs sous-classes directes.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Une classe peut être héritée par plusieurs autres sous-classes sans problème."
+      },
+      {
+        "text": "Pour les types référence, sous-typage implique héritage.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Le sous-typage peut également résulter de l'implémentation d'une interface, et pas seulement de l'héritage."
+      },
+      {
+        "text": "La dernière version de Java est Java 12.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "La version de Java au moment du test était Java 13."
+      },
+      {
+        "text": "Java est un langage orienté objet à prototypes.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Java est un langage orienté objet à classes, et non à prototypes."
+      },
+      {
+        "text": "La durée de vie d’un attribut non statique est celle d’une instance donnée de la classe.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Les attributs non statiques sont associés à une instance spécifique de la classe."
+      },
+      {
+        "text": "Avec x et y de type Object, après exécution de l’instruction x = y;, la variable x représente désormais une copie de l’objet représenté par y.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "L'affectation d'un objet copie la référence, pas l'objet lui-même. x et y pointeront vers le même objet."
+      }
+    ]
+  }

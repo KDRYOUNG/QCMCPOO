@@ -1,0 +1,334 @@
+{
+    "questions": [
+      {
+        "text": "Quand, dans une méthode, on définit et initialise une nouvelle variable locale de type int, sa valeur est stockée dans le tas.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Les variables locales sont stockées en pile ce qui permet de récupérer la mémoire quand on sort de la méthode."
+      },
+      {
+        "text": "Quand “this” est une expression, elle s’évalue comme l’objet sur lequel la méthode courante a été appelée.",
+        "options": [
+          {"text": "Vrai", "correct": true},
+          {"text": "Faux", "correct": false}
+        ],
+        "explanation": "Elle désigne l'objet sur lequel la méthode est appelée, mais peut aussi être utilisée dans d'autres cas, comme dans un constructeur."
+      },
+      {
+        "text": "Toute classe dispose d’un constructeur par défaut, sans paramètre.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Le constructeur par défaut est ajouté seulement si aucun autre constructeur n'a été défini."
+      },
+      {
+        "text": "Object est supertype de double.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Object est un type référence, tandis que double est un type primitif, ils appartiennent à des hiérarchies de types différentes."
+      },
+      {
+        "text": "Une variable locale est toujours déclarée à l’intérieur d’un bloc d’instructions.",
+        "options": [
+          {"text": "Vrai", "correct": false},
+          {"text": "Faux", "correct": true}
+        ],
+        "explanation": "Cela dépend de la définition. Les variables locales peuvent être dans les parenthèses de blocs comme les boucles for."
+      },
+      
+          {
+            "text": "On écrit public devant la déclaration d'une variable locale pour qu'elle soit visible depuis les autres classes.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Les variables locales ne sont visibles que dans le bloc où elles sont déclarées. Les modificateurs de visibilité comme 'public' ne s'appliquent pas à elles."
+          },
+          {
+            "text": "Dès lors qu’un objet n’est plus utilisé, il faut penser à demander à Java de libérer la mémoire qu’il occupe.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Le ramasse-miettes de Java se charge automatiquement de libérer la mémoire des objets non utilisés."
+          },
+          {
+            "text": "La ligne 11 du programme ci-dessous affiche '2'.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+              
+            ],
+            "explanation": "La valeur de v1 est statique et est incrémentée à chaque instanciation. La ligne 11 affiche '1' pour v2, un attribut d'instance.",
+            "image": "images/question8.png"
+            
+          },
+          {
+            "text": "La ligne 12 du programme ci-dessus affiche '1'.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "v1 est statique et a été incrémenté trois fois avant la ligne 12, donc la ligne 12 affiche '3'."
+          },
+          {
+            "text": "La durée de vie d’un attribut statique est celle d’une instance donnée de la classe.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Un attribut statique existe pendant toute la durée d'exécution de la classe dans la JVM, pas seulement pour une instance."
+          },
+          {
+            "text": "La plateforme Java est adaptée à la programmation système.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Java fournit des abstractions qui sont communes à plusieurs plateformes, ce qui ne permet pas d'accéder directement aux primitives système."
+          },
+          {
+            "text": "Dans un fichier source Java, une instruction se situe nécessairement (pas forcément seule) entre une accolade ouvrante et une accolade fermante.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Les instructions Java sont placées dans des blocs délimités par des accolades."
+          },
+          {
+            "text": "Avec x et y de type Object, après exécution de l’instruction x = y;, la variable x représente désormais une copie de l’objet représenté par y.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "L'affectation copie seulement la référence, pas l'objet lui-même. Les deux variables pointent donc vers le même objet."
+          },
+          {
+            "text": "Une interface peut avoir des instances directes.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Une interface ne peut pas être instanciée directement. Seules les classes concrètes peuvent avoir des instances directes."
+          },
+          {
+            "text": "Tout objet existant à l’exécution est instance de Object.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Object est le supertype de tous les objets en Java, donc tout objet à l'exécution est une instance de Object."
+          },
+          {
+            "text": "Le polymorphisme par sous-typage permet de réutiliser une méthode f(...), avec des paramètres effectifs de types différents entre deux utilisations, sans recompiler f(...).",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Le polymorphisme permet d'utiliser une méthode avec des paramètres de types différents grâce au sous-typage sans nécessiter une recompilation."
+          },
+          {
+            "text": "Il est plus facile de prouver qu’un programme se comporte correctement quand ses classes encapsulent leurs données que quand elles ne le font pas.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "L'encapsulation permet de mieux contrôler l'accès aux données, rendant le programme plus facile à vérifier."
+          },
+          {
+            "text": "Les attributs d’une interface sont tous statiques.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "En Java, les attributs d'une interface sont toujours statiques par conception."
+          },
+          {
+            "text": "Une classe implémentant une interface doit implémenter/redéfinir toutes les méthodes déclarées dans l’interface.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Les classes abstraites n'ont pas à implémenter toutes les méthodes d'une interface, et une interface peut contenir des méthodes avec une implémentation par défaut."
+          },
+          {
+            "text": "Pour faire un downcasting, on doit demander explicitement le transtypage.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Le downcasting est une opération qui doit être explicitement demandée, car elle peut échouer si l'objet n'est pas du type cible."
+          },
+          {
+            "text": "La méthode somme ci-dessous s’exécute toujours sans erreur (exception).",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Si la liste est modifiée après l'initialisation, la méthode peut déclencher une exception IndexOutOfBoundsException.",
+            "image": "images/question21.png"
+
+          },
+          {
+            "text": "Java dispose d’un système de typage statique.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Java utilise un typage statique, ce qui signifie que le typage des variables est vérifié à la compilation."
+          },
+          {
+            "text": "Le code source doit être compilé en code-octet avant chaque exécution.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Une fois compilé en bytecode, le programme peut être exécuté plusieurs fois sans être recompilé."
+          },
+          {
+            "text": "Les objets sont typiquement stockés dans la pile.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Les objets en Java sont stockés dans le tas, et non dans la pile."
+          },
+          {
+            "text": "Certaines vérifications de type ont lieu à l’exécution.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Des vérifications comme 'instanceof' ou 'checkcast' sont effectuées à l'exécution pour s'assurer que les objets ont le type attendu."
+          },
+          {
+            "text": "Quand on “cast” (transtype) une expression d’un type référence vers un autre, dans certains cas, Java doit, à l’exécution, modifier l’objet référencé pour le convertir.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Le transtypage d'objet ne modifie pas l'objet. Soit le cast réussit, soit il échoue avec une exception."
+          },    {
+            "text": "Un transtypage de référence se traduit toujours par une instruction spécifique dans le code-octet.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Seul le downcasting nécessite une instruction dans le bytecode, pas l'upcasting."
+          },
+          {
+            "text": "On peut déclarer une classe non imbriquée avec la visibilité private.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "En Java, seules les classes publiques ou package-private peuvent être non imbriquées. 'Private' n'est autorisé que pour les classes imbriquées."
+          },
+          {
+            "text": "Dans une classe B, membre statique de A (on suppose que B ne contient pas elle-même de définition de type imbriqué), this désigne toujours une instance de B.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Le mot-clé 'this' fait référence à l'instance de la classe dans laquelle il est utilisé, ici B."
+          },
+          {
+            "text": "La classe d’un objet donné est connue et interrogeable à l’exécution.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Chaque objet Java contient une référence vers son objet-classe, ce qui permet de connaître son type à l'exécution."
+          },
+          {
+            "text": "La conversion de int vers float ne perd pas d’information.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "La conversion de int vers float peut entraîner une perte de précision, car un float ne peut représenter que 24 bits de chiffres significatifs, contre 32 pour un int."
+          },
+          {
+            "text": "Une interface définit un sous-type de Object.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Les interfaces sont des types références, donc des sous-types d'Object."
+          },
+          {
+            "text": "Une interface peut avoir une classe membre.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Une interface peut contenir des classes membres, et ces classes sont toujours statiques."
+          },
+          {
+            "text": "Java est plus ancien que C++.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "C++ a été créé dans les années 1980, alors que Java est apparu dans les années 1990."
+          },
+          {
+            "text": "Le type d’une expression est calculé à l’exécution.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Le type des expressions est vérifié à la compilation, et non à l'exécution."
+          },
+          {
+            "text": "Si A et B sont des types référence, A est sous-type de B si et seulement si toutes les instances de A sont aussi des instances de B.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Le sous-typage en Java suit la relation d'inclusion des ensembles, où toutes les instances d'un sous-type sont aussi des instances du supertype."
+          },
+          {
+            "text": "Le type des objets Java est déterminé à l’exécution.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Le type des objets Java est vérifié et utilisé à l'exécution pour les méthodes et les champs."
+          },
+          {
+            "text": "Le type char est primitif.",
+            "options": [
+              {"text": "Vrai", "correct": true},
+              {"text": "Faux", "correct": false}
+            ],
+            "explanation": "Le type char fait partie des huit types primitifs en Java."
+          },
+          {
+            "text": "Le type Object est primitif.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "Object est un type référence, pas un type primitif."
+          },
+          {
+            "text": "La JVM interprète du code source Java.",
+            "options": [
+              {"text": "Vrai", "correct": false},
+              {"text": "Faux", "correct": true}
+            ],
+            "explanation": "La JVM interprète du bytecode, pas du code source Java."
+          }
+      
+        
+      
+      
+    ]
+  }
+  

@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+
+.home-container {
+    background-color: #1e1e1e; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(15, 141, 105, 0.3);
+    width: 100%; 
+    max-width: 600px; 
+    margin: 20px auto; 
+    transition: transform 0.2s; 
+    color:rgb(48, 132, 117);
+    
+}
+.home-container:hover {
+    transform: scale(1.02); 
+}
+
+h1 {
+   
+    color: #f0f0f0; 
+    margin: 10px 0; 
+    text-align: center; 
+    background-color: rgba(30, 30, 30, 0.8); 
+    color: #ffffff; 
+    padding: 5px 10px;  
+    border-radius: 5px; 
+    z-index: 1;   
+}
+
+.button-container {
+    padding-top: 150px;
+    margin: 10px 0; 
+    text-align: center; 
+    background-color: rgba(30, 30, 30, 0.8);
+    color: #ffffff; 
+    padding: 5px 10px;  
+    border-radius: 5px; 
+    z-index: 1;   
+
+    flex-direction: column; 
+    align-items: center; 
+}
+.overlay-text {
+    margin: 10px 0; 
+    text-align: center; 
+    background-color: rgba(30, 30, 30, 0.8); 
+    color: #ffffff; 
+    padding: 5px 10px;  
+    border-radius: 5px; 
+    z-index: 1;   
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;      
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #ffffff;   
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(15, 141, 105, 0.3); 
+    padding: 5px 10px;  
+    border-radius: 5px; 
+    z-index: 1;   
+}
+
+.button:hover {
+    background-color: rgba(65, 147, 124, 0.3); 
+    transform: translateY(-2px); 
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+   
+
+}
